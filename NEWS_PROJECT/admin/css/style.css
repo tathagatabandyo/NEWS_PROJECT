@@ -1,0 +1,200 @@
+body {
+    background: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a, a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+img.logo {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.admin-main form {
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 13%);
+    border-radius: 20px;
+}
+.admin-main h3{
+    margin-top: 10px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline #000 solid;
+    text-underline-offset: 10px;
+}
+.admin-main {
+    padding-top: 100px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header a {
+    margin: 0px 15px;
+}
+#header #logo img {
+    width: 160px;
+}
+#nav-ul-tag {
+    justify-content: center;
+    margin: 0px auto;
+}
+#nav-ul-tag li a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    transition: color,background-color 0.5s,0.5s;
+}
+#nav-ul-tag li a:hover {
+    background-color: #0d6efd;
+    color: #000;
+}
+#admin-content {
+    padding: 20px 0;
+    min-height: 525px;
+}
+#admin-content .add-new {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 7px 10px;
+    display: block;
+    transition: all 0.3s;
+}
+#admin-content .add-new:hover {
+    box-shadow: 4px 4px 2px rgba(51, 51, 51, 0.589);
+    text-shadow: 4px 4px 4px #333;
+}
+#admin-content .content-table {
+    border: 1px solid #000;
+    width: 100%;
+    margin: 0 0 20px;
+}
+#admin-content .content-table thead {
+    color: #fff;
+    background-color: #212529;
+}
+#admin-content .content-table tbody {
+    color: #333;
+}
+#admin-content .content-table tbody tr {
+    background-color: #e7e7e7;
+}
+#admin-content .content-table thead th,#admin-content .content-table tbody td {
+    padding: 10px;
+    border: 1px solid #fff;
+    text-align: center;
+    font-size: 20px;
+}
+#admin-content .content-table tbody tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.11);
+}
+.id, .edit, .delete {
+    text-align: center;
+}
+.id {
+    font-weight: 600;
+}
+.edit, .delete {
+    text-align: center;
+}
+.edit a, .delete a,.delete .btn-d,.edit .btn-e {
+    /* width: 40px; */
+    color: #000;
+    font-size: 20px;
+    background-color: #0d6efd;
+    padding: 8px;
+    border-radius: 5px;
+    transition: color,background-color 0.3s,0.3s;
+}
+.delete form,.edit form {
+    display: flex;
+    justify-content: center;
+}
+.delete .btn-d,.edit .btn-e {
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.delete a,.delete .btn-d {
+    background-color: #dc3545;
+}
+.delete a:hover,.delete .btn-d:hover {
+    background-color: #000;
+    color: #dc3545;
+}
+.edit a:hover,.edit .btn-e:hover {
+    background-color: #000;
+    color: #0d6efd;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+.pagination a {
+    color: #fff;
+    background-color: #0d6efd;
+    text-decoration: none;
+    margin: 0 5px;
+    padding: 6px 12px;
+}
+.pagination .disabled_a,.pagination .disabled_a:hover {
+    cursor: not-allowed;
+    background-color: #787878;
+    color: #fff;
+    user-select: none;
+}
+.pagination a:hover {
+    background-color: #333;
+}
+.pagination .active {
+    background-color: #044a87;
+}
+.pagination .active:hover {
+    background-color: #044a87;
+}
+.pagination a:first-child {
+    border-radius: 5px 0 0px 5px;
+}
+.pagination a:last-child {
+    border-radius: 0px 5px 5px 0px;
+}
+.admin-style form {
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 13%);
+    border-radius: 10px;
+}
+.admin-style form label {
+    font-size: 16px;
+    font-weight: 600;
+}
+.admin-style form input,.admin-style form textarea,.admin-style form select {
+    font-size: 20px;
+    font-weight: 500;
+    color: #555;
+}
+.admin-style form input[type="submit"] {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+.admin-style form .update-image {
+    margin-top: 5px;
+}
+@media screen and (max-width:992px){
+    #nav_bar {
+        padding: 8px 0px !important;
+    }
+    #nav-ul-tag {
+        margin-top:8px;
+    }
+}
