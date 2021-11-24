@@ -1,3 +1,3 @@
-# NEWS_PROJECT
+## NEWS_PROJECT
 NEWS PROJECT Using PHP(NEWS PROJECT CMS PROJECT)
 ![NEWS PROJECT Image](https://user-images.githubusercontent.com/48715906/124552291-f854f780-de50-11eb-9197-d7b9378cbe56.jpg)
